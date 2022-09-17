@@ -6,7 +6,6 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import { Player } from 'video-react';
-import { Player } from '../elements/TradingBG.mp4'; 
 
 const propTypes = {
   ...SectionProps.types
@@ -84,7 +83,7 @@ const Hero = ({
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
 
           <video autoPlay muted >
-            <source src="../elements/TradingBG.mp4"/>
+            <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"/>
           </video>
           </div>
           <Modal
