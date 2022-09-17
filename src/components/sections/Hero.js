@@ -5,6 +5,8 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import { Player } from 'video-react';
+ 
 
 const propTypes = {
   ...SectionProps.types
@@ -61,7 +63,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              What the future <span className="text-color-primary">HOLDS!!!</span>
+              What the future <span className="text-color-primary">HOLDS!</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -80,19 +82,10 @@ const Hero = ({
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://vimeo.com/262112338"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
+
+          <video autoPlay muted >
+            <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"/>
+          </video>
           </div>
           <Modal
             id="video-modal"
