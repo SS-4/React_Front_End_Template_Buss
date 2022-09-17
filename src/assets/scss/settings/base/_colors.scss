@@ -3,31 +3,31 @@
 // The color palette
 $palette: (
 	light: (
-		1: #4f3dd6,
-		2: #000000,
+		1: #1920de,
+		2: #686161,
 		3: #8aefff
 	),
 	dark: (
 		1: #001d07,
-		2: #25282C,
+		2: #e6bef7,
 		3: #33363A
 	),
 	primary: (
-		1: #000302,
+		1: #e6bef7,
 		2: #d9b6ff,
-		3: #4f3dd6,
+		3: #7f3dd6,
 		4: #ffffff
  	),
 	secondary: (
-		1: #24E5AF,
+		1: #ce24e5,
 		2: #076349,
-		3: #aadb92,
-		4: #D2F9EE
+		3: #6668d9,
+		4: #6c43b3
 	),
 	alert: (
 		error: #FF6171,
 		warning: #FFA173,
-		success: #24E5AF
+		success: #21327b
 	)
 );
 
