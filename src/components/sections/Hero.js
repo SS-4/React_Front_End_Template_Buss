@@ -73,7 +73,7 @@ const Hero = ({
                   <Button tag="a" color="primary" wideMobile href="https://samsamie.com/">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://samsamie.com/">
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/SS-4/React_Front_End_Template_Buss">
                     View on Github
                     </Button>
                 </ButtonGroup>

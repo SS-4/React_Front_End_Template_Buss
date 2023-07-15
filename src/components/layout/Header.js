@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="https://github.com/SS-4/React_Front_End_Template_Buss" onClick={closeMenu}>Documentation</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="https://samsamie.com" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
                       </li>
                     </ul>}
                 </div>
